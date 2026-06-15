@@ -4,8 +4,9 @@
     {
       "name": "furfinds-app",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--port", "3335"],
-      "port": 3335
+      "runtimeArgs": ["run", "dev"],
+      "port": 3335,
+      "autoPort": true
     }
   ]
 }
